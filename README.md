@@ -4,7 +4,7 @@
   <img src="media/preview.gif" width="640" alt="Four short moments from the test renders: a man leaning across a table in anger, a woman kicking a man in a cage fight, a startled woman in close-up, and a woman walking down an office corridor.">
 </p>
 <p align="center"><sub>Four moments from the test renders, without sound. All footage here is machine-generated with MiniMax-H3.
-<a href="media/h3-scene-reel.mp4">Watch the 85-second reel with sound.</a></sub></p>
+<a href="#watch-the-reel">Watch the 85-second reel with sound.</a></sub></p>
 
 MiniMax-H3 is an open-weight model that generates picture and speech in one pass. A public workflow,
 [colab-ultra-workstation](https://github.com/yuanyang749/colab-ultra-workstation), says it can shoot short drama on one
@@ -17,6 +17,13 @@ precise direction much less well.
 This was a two-day project on rented cloud GPUs. Claude Code wrote the code and ran the renders, GPT-6 rated every take
 from grids of still frames, and I chose the tests and reviewed the results. Three takes per scene is a small sample, so read the
 counts as a first look. Nobody has rated the voices or the lip sync yet.
+
+## Watch the reel
+
+The reel runs 85 seconds with sound. It shows the best take of each scene type, labelled with its rating, and ends on the
+split screen described below. If the player does not load, [open the file](media/h3-scene-reel.mp4).
+
+https://github.com/user-attachments/assets/0fa5f08c-61b2-4fe3-a9a0-7cc1779ab965
 
 ## Results by scene
 
