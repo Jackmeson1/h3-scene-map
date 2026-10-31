@@ -1,0 +1,84 @@
+{
+  "title": "末班渡口",
+  "seed": 20261030,
+  "plate_time": 4.8,
+  "scene": "the sheltered wooden pier shed of a small river ferry crossing in southern China at night during steady rain, one warm tungsten bulb hanging overhead, wet planks underfoot, an old wooden ferry boat moored behind them, the dark river beyond",
+  "style": "unretouched candid documentary film still, 50mm f/4 medium-deep focus, warm tungsten key light with deep night shadows, natural matte skin texture with real pores, zero oily shine, Rec.709 neutral color",
+  "soundscape": "Steady rain on the tin roof of the pier shed, water lapping softly against the wooden boat.",
+  "characters": {
+    "left": {
+      "desc": "a 28-year-old Chinese woman with shoulder-length black hair damp from the rain, natural unretouched East Asian facial features, wearing a pale yellow hooded raincoat over a grey sweater",
+      "voice": "a soft, clear young female alto voice",
+      "they": "she",
+      "their": "her",
+      "cast_line": "我叫小禾，从南边来，想过河去看看。",
+      "name": "小 禾",
+      "role": "过河的人"
+    },
+    "right": {
+      "desc": "a 62-year-old Chinese boatman with a deeply weathered tanned face, grey stubble and short grey hair, wearing a faded navy work jacket under a dark oilcloth rain cape",
+      "voice": "a low, gravelly older male baritone voice",
+      "they": "he",
+      "their": "his",
+      "cast_line": "我姓周，在这条河上撑了四十年船。",
+      "name": "老 周",
+      "role": "摆渡四十年"
+    }
+  },
+  "segments": [
+    {
+      "speaker": "left",
+      "line": "师傅，@{ask}今晚还开船吗？",
+      "intent": "asks a hesitant, hopeful question",
+      "before": "<Subject 1> on the left lifts her gaze from the wet planks toward <Subject 2> and takes a small breath",
+      "delivery": "a soft, hesitant, hopeful voice with slight tiredness",
+      "after": "<Subject 1> closes her lips and waits, rain dripping from the edge of her hood, while <Subject 2> slowly looks her over"
+    },
+    {
+      "speaker": "right",
+      "line": "@{reply}这么大的雨，你去对岸做什么？",
+      "intent": "asks a gruff but concerned question",
+      "before": "<Subject 2> on the right draws a slow breath and shifts his weight, glancing past her toward the rain",
+      "delivery": "a low, gravelly, gruff voice with quiet concern",
+      "after": "<Subject 2> closes his lips and studies her face while <Subject 1> lowers her eyes for a moment"
+    },
+    {
+      "speaker": "left",
+      "line": "我爸在那边，@{ten}等了我十年了。",
+      "intent": "answers quietly, holding back tears",
+      "before": "<Subject 1> on the left swallows and raises her eyes back to <Subject 2>, her hand tightening on the strap of her canvas bag",
+      "delivery": "a quiet, trembling voice holding back tears",
+      "after": "<Subject 1> presses her lips together, eyes glistening, while <Subject 2> stays still and his expression softens"
+    },
+    {
+      "speaker": "right",
+      "line": "上船吧，@{promise}我送你过去。",
+      "intent": "gently agrees to take her across",
+      "before": "<Subject 2> on the right exhales through his nose, and nods once, his shoulders easing toward the moored boat",
+      "delivery": "a low, warm, gentle gravelly voice",
+      "after": "<Subject 2> closes his lips and reaches one weathered hand for the mooring rope while <Subject 1> gives a small grateful nod"
+    }
+  ],
+  "format": "two_person_static",
+  "fade_out": 0.8,
+  "overlays": [
+    {
+      "type": "nameplate",
+      "who": "left",
+      "at": "ask",
+      "lasts": 2.6
+    },
+    {
+      "type": "nameplate",
+      "who": "right",
+      "at": "reply",
+      "lasts": 2.6
+    },
+    {
+      "type": "title",
+      "text": "末班渡口",
+      "at": "end",
+      "lasts": 1.8
+    }
+  ]
+}

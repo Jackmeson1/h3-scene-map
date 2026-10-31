@@ -1,0 +1,101 @@
+{
+  "title": "还债",
+  "seed": 20261031,
+  "plate_time": 4.8,
+  "scene": "a small old noodle shop in a Chinese alley on a bright autumn afternoon, sunlight through the open doorway, steam rising from a large pot, wooden counter and worn tile walls",
+  "style": "unretouched candid documentary film still, 50mm f/4 medium-deep focus, soft natural daylight from the doorway, natural matte skin texture with real pores, zero oily shine, Rec.709 neutral color",
+  "soundscape": "Soft bubbling of a pot of broth and faint alley sounds through the open doorway.",
+  "characters": {
+    "left": {
+      "desc": "a 55-year-old Chinese woman who owns the noodle shop, short permed black hair streaked with grey, a round tired face with natural unretouched East Asian facial features, wearing a dark blue apron over a floral blouse",
+      "voice": "a brisk, slightly hoarse middle-aged female voice",
+      "they": "she",
+      "their": "her",
+      "cast_line": "我在这条巷子卖了三十年面。",
+      "name": "陈 姨",
+      "role": "面馆老板娘"
+    },
+    "right": {
+      "desc": "a 31-year-old Chinese woman with long black hair tied in a high ponytail, thin gold-rimmed glasses, a slim face with natural unretouched East Asian facial features, wearing a beige trench coat",
+      "voice": "a calm, clear young female voice",
+      "they": "she",
+      "their": "her",
+      "cast_line": "我在上海工作，今天特地赶回来。",
+      "name": "小 林",
+      "role": "归来的人"
+    }
+  },
+  "segments": [
+    {
+      "speaker": "right",
+      "line": "@{hello}阿姨，这碗面的味道，@{found}我找了二十年。",
+      "intent": "says this softly with a moved smile",
+      "before": "<Subject 2> on the right sets down her chopsticks and lifts her gaze to <Subject 1>",
+      "delivery": "a calm, clear voice softened with emotion",
+      "after": "<Subject 2> closes her lips with a small smile while <Subject 1> wipes her hands on her apron, puzzled"
+    },
+    {
+      "speaker": "left",
+      "line": "@{who}你是谁？我不认识你。",
+      "intent": "asks warily",
+      "before": "<Subject 1> on the left tilts her head slightly and narrows her eyes at <Subject 2>",
+      "delivery": "a brisk, slightly hoarse, wary voice",
+      "after": "<Subject 1> closes her lips and waits with folded arms while <Subject 2> takes a slow breath"
+    },
+    {
+      "speaker": "right",
+      "line": "我是当年门口那个偷包子的小孩。",
+      "intent": "confesses with a shaky voice",
+      "before": "<Subject 2> on the right lowers her eyes for a moment, then raises them to <Subject 1>",
+      "delivery": "a quiet, shaky, ashamed voice",
+      "after": "<Subject 2> presses her lips together and holds still while <Subject 1> slowly unfolds her arms, eyes widening"
+    },
+    {
+      "speaker": "left",
+      "line": "是你！@{howlong}你知不知道我找了你多久！",
+      "intent": "bursts out in loud emotional anger",
+      "before": "<Subject 1> on the left slaps her palm down on the wooden counter and leans sharply forward",
+      "delivery": "a loud, fierce, cracking voice shouting at the top of her lungs, forceful consonant attack, strongly stressed words",
+      "after": "<Subject 1> closes her lips, breathing hard with her chest rising and falling, while <Subject 2> stands frozen with glistening eyes",
+      "sound": "A sudden sharp palm slap on the wooden counter at 00:01.000, immediately followed by loud, fierce shouted speech ringing off the tile walls."
+    },
+    {
+      "speaker": "right",
+      "line": "对不起，@{repay}我回来还钱了。",
+      "intent": "apologizes through tears",
+      "before": "<Subject 2> on the right draws an unsteady breath and blinks back tears",
+      "delivery": "a soft, tearful, trembling voice",
+      "after": "<Subject 2> closes her lips, a tear running down her cheek, while <Subject 1> stares at her and her shoulders slowly drop"
+    },
+    {
+      "speaker": "left",
+      "line": "傻孩子，那几个包子，早就请你了。",
+      "intent": "forgives her with a tearful laugh",
+      "before": "<Subject 1> on the left exhales, shakes her head once, and her stern face breaks into a tearful smile",
+      "delivery": "a warm, hoarse, tearful voice with a little laugh in it",
+      "after": "<Subject 1> closes her lips and smiles with wet eyes while <Subject 2> gives a small grateful nod"
+    }
+  ],
+  "format": "two_person_static",
+  "fade_out": 0.8,
+  "overlays": [
+    {
+      "type": "nameplate",
+      "who": "right",
+      "at": "hello",
+      "lasts": 2.6
+    },
+    {
+      "type": "nameplate",
+      "who": "left",
+      "at": "who",
+      "lasts": 2.6
+    },
+    {
+      "type": "title",
+      "text": "还债",
+      "at": "end",
+      "lasts": 1.8
+    }
+  ]
+}
